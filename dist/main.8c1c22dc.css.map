@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/css/main.scss"],"sourcesContent":["$background-color: white;\n\nbody {\n    background: $background-color\n}"],"names":[],"version":3,"file":"main.8c1c22dc.css.map","sourceRoot":"/__parcel_source_root/"}
