@@ -1,5 +1,5 @@
-$background-color: white;
+@use './abstracts/variables' as *;
 
 body {
-    background: $background-color
+    background-color: $background-color;
 }
