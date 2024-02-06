@@ -1,5 +1,3 @@
-@use './abstracts/variables' as *;
+@use './base/reset';
+@use './base/typography';
 
-body {
-    background-color: $background-color;
-}
