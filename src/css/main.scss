@@ -1,3 +1,17 @@
+/* Table of Contents
+    
+-- base imports
+-- component imports
+-- layout imports
+
+**/
+
+
+/*  base imports  */
 @use './base/reset';
 @use './base/typography';
 
+/*  component imports  */
+@use './components/buttons'
+
+/*  layout imports  */

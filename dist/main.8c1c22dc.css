@@ -1,5 +1,13 @@
-body {
-  background-color: #fff;
+.btn-primary {
+  background: green;
+}
+
+.btn-secondary {
+  background: #00f;
+}
+
+.btn-tertiary {
+  background: purple;
 }
 
 /*# sourceMappingURL=main.8c1c22dc.css.map */

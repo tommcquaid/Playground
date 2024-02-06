@@ -1,2 +1,11 @@
-$background-color: white;
-$btn-background: red;
+$green: green;
+$blue: blue;
+$purple: purple;
+
+$theme-colors: (
+    "primary": $green,
+    "secondary": $blue,
+    "tertiary": $purple
+);
+
+
