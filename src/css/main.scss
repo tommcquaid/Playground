@@ -6,13 +6,15 @@
 
 **/
 
+/*  abstract imports  */
+@use './abstracts/variables';
+@use './abstracts/mixins';
 
 /*  base imports  */
 @use './base/reset';
 @use './base/typography';
+@use './base/structure';
 
 /*  component imports  */
 
 /*  layout imports  */
-@use './layout/margin';
-
