@@ -1,9 +1,20 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
 body {
     margin: 70px auto;
-    padding: 0px 70px;
-    max-width: 508px;
+    max-width: $width;
 }
 
 section {
-    margin: 0 0 50px 0;
+    margin-bottom: 45px;
+}
+
+.intro {
+    grid-column-gap: 18px;
+    display: flex;
+}
+
+.work, .education {
+    margin-top: 70px;
 }
