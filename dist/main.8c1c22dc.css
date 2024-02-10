@@ -187,4 +187,10 @@ template, [hidden] {
   display: none;
 }
 
+body {
+  max-width: 520px;
+  margin: 70px auto;
+  padding: 0 100px;
+}
+
 /*# sourceMappingURL=main.8c1c22dc.css.map */
