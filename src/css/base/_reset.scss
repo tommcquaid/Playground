@@ -32,20 +32,17 @@
     display: block;
   }
   
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
+  /* Tom edit - reset heading styles to unstyled and unmargined */
   
   h1 {
     margin: 0.67em 0;
   }
 
-  /* remove default header stylings - Tom's update */
-
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 1rem;
-    font-weight: 400;
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
   }
   
   /* Grouping content
@@ -353,5 +350,5 @@
   [hidden] {
     display: none;
   }
+
   
- 

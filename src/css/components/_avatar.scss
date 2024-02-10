@@ -1,0 +1,14 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.avatar {
+    width: 95px;
+    height: 95px;
+    @include bw;
+    background-color: #b1b1b1;
+    background-image: url(http://placekitten.com/95/95);
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 50px;
+    flex: none;
+}
