@@ -17,6 +17,7 @@ h1 {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 hr {
@@ -194,6 +195,12 @@ template, [hidden] {
 
 @font-face {
   font-family: soehne;
+  src: url("soehne-buch-kursiv.834ca61b.woff2") format("woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: soehne;
   src: url("soehne-dreiviertelfett.567f4fef.woff2") format("woff");
   font-weight: bold;
 }
@@ -205,13 +212,10 @@ template, [hidden] {
   font-style: italic;
 }
 
-@font-face {
-  font-family: soehne;
-  src: url("soehne-buch-kursiv.834ca61b.woff2") format("woff");
-  font-style: italic;
-}
-
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
   max-width: 520px;
   margin: 70px auto;
   padding: 0 100px;
