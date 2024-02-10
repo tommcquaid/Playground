@@ -187,10 +187,35 @@ template, [hidden] {
   display: none;
 }
 
+@font-face {
+  font-family: soehne;
+  src: url("soehne-buch.22e2cc2b.woff2") format("woff");
+}
+
+@font-face {
+  font-family: soehne;
+  src: url("soehne-dreiviertelfett.567f4fef.woff2") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: soehne;
+  src: url("soehne-dreiviertelfett-kursiv.474de89b.woff2") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: soehne;
+  src: url("soehne-buch-kursiv.834ca61b.woff2") format("woff");
+  font-style: italic;
+}
+
 body {
   max-width: 520px;
   margin: 70px auto;
   padding: 0 100px;
+  font-family: soehne;
 }
 
 /*# sourceMappingURL=main.8c1c22dc.css.map */
