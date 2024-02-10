@@ -1,8 +1,0 @@
-@use '../abstracts/variables' as *;
-@use '../abstracts/mixins' as *;
-
-@each $color, $value in $theme-colors {
-    .btn-#{$color} {
-        @include button($value);
-    }
-}
